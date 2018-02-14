@@ -130,7 +130,7 @@ header h1 span.logo {
   display: flex;
   justify-content: center;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #ef5330;
   transition: all 0.25s ease-in;
 }
 #flexbox-example .box {
@@ -142,7 +142,7 @@ header h1 span.logo {
   background-color: #008000;
 }
 #flexbox-example .box.box2 {
-  background-color: #ff0;
+  background-color: #ffa500;
 }
 #flexbox-example .box.box3 {
   background-color: #f00;
@@ -153,11 +153,11 @@ header h1 span.logo {
 #flexbox-example-live ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 #flexbox-example-live ul li {
-  margin: 5px;
+  margin: 5px 10px;
   padding: 5px 10px;
   cursor: pointer;
   background-color: #f0f0f0;
