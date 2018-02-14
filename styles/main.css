@@ -96,6 +96,9 @@ header h1 span.logo {
 #content p {
   font-size: 16px;
 }
+#content p.align-right {
+  text-align: right;
+}
 #content em {
   font-size: 90%;
 }
@@ -113,7 +116,7 @@ header h1 span.logo {
   position: absolute;
   z-index: 99;
   right: 15px;
-  top: 8px;
+  top: 0px;
   opacity: 0.5;
   background-color: #00ff85;
   padding: 5px 10px;
@@ -136,7 +139,6 @@ header h1 span.logo {
 #flexbox-example .box {
   padding: 20px 30px;
   color: #fff;
-  margin: 10px;
 }
 #flexbox-example .box.box1 {
   background-color: #008000;
