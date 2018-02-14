@@ -1,0 +1,38 @@
+#content
+    padding 50px
+    background-color white
+    
+    h2
+        $roboto-slab()
+        color $color-scripted
+        font-size 30px
+        border-bottom 1px solid rgb(230,230,230)
+    
+    p
+        font-size 16px
+        
+    em
+        font-size 90%
+        
+    pre
+        padding 10px
+        background-color rgb(240,240,240)
+        
+    .popcode-link
+        display block
+        position absolute
+        z-index 99
+        right 15px
+        top 8px
+        opacity 0.5
+        
+        background-color $color-popcode
+        padding 5px 10px
+        
+        $roboto-slab()
+        font-size 12px
+        color rgb(50,50,50)
+        
+        transition opacity 0.15s ease-in
+        &:hover
+            opacity 1
