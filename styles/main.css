@@ -1,4 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab';
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
 main.row {
   margin-right: 0;
   margin-left: 0;
@@ -72,6 +76,10 @@ header h1 span.logo {
   padding: 50px;
   background-color: #fff;
 }
+#content .row {
+  margin-bottom: 10px;
+  align-content: flex-start;
+}
 #content h2 {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
@@ -79,15 +87,26 @@ header h1 span.logo {
   font-size: 30px;
   border-bottom: 1px solid #e6e6e6;
 }
+#content h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #4b4b4b;
+}
 #content p {
   font-size: 16px;
 }
 #content em {
   font-size: 90%;
 }
+#content strong {
+  color: #ef5330;
+}
 #content pre {
   padding: 10px;
+  margin-top: 0;
   background-color: #f0f0f0;
+  user-select: none;
 }
 #content .popcode-link {
   display: block;
@@ -106,4 +125,43 @@ header h1 span.logo {
 }
 #content .popcode-link:hover {
   opacity: 1;
+}
+#flexbox-example {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  transition: all 0.25s ease-in;
+}
+#flexbox-example .box {
+  padding: 20px 30px;
+  color: #fff;
+  margin: 10px;
+}
+#flexbox-example .box.box1 {
+  background-color: #008000;
+}
+#flexbox-example .box.box2 {
+  background-color: #ff0;
+}
+#flexbox-example .box.box3 {
+  background-color: #f00;
+}
+#flexbox-example .box.box4 {
+  background-color: #00f;
+}
+#flexbox-example-live ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#flexbox-example-live ul li {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+#flexbox-example-live ul li:hover {
+  background-color: #dcdcdc;
 }
