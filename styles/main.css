@@ -105,6 +105,9 @@ header h1 span.logo {
 #content strong {
   color: #ef5330;
 }
+#content a {
+  color: #ef5330;
+}
 #content pre {
   padding: 10px;
   margin-top: 0;
@@ -166,4 +169,18 @@ header h1 span.logo {
 }
 #flexbox-example-live ul li:hover {
   background-color: #dcdcdc;
+}
+#flexbox-column-example {
+  display: flex;
+  border: 2px solid #969696;
+}
+#flexbox-column-example .left {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 100px 10px;
+}
+#flexbox-column-example .right {
+  width: 70%;
+  background-color: #dcdcdc;
+  padding: 100px 10px;
 }
